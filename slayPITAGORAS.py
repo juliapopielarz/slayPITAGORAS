@@ -3,10 +3,10 @@ import streamlit as st
 st.title("Kalkulator Pitagorasa (pokazcie Celince)")
 
 a = st.number_input("Podaj długość boku a:")
-b = st.number_input("Podaj długość boku c:")
+b = st.number_input("Podaj długość boku b:")
 
 #c is equal
 
 c = (a**2 + b**2)**0.5
 
-st.write()
+st.write(c)
